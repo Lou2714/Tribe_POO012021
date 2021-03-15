@@ -11,11 +11,11 @@ namespace Example01
             a = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Enter a value for b:");
             b = Int32.Parse(Console.ReadLine());
-            Console.WriteLine($"Subtracting {a} - {b} equals {subtractNumbers(a,b)} ");
+            Console.WriteLine($"Multiply {a} * {b} equals {MultiplyNumbers(a,b)} ");
         }
-        static int subtractNumbers(int a, int b)
+        static int MultiplyNumbers(int a, int b)
         {
-            return a - b;
+            return a * b;
         }
     }
 }
